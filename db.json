@@ -1,0 +1,25 @@
+{
+    "TableName": {
+        "table_configs": {
+            "anime_id": {
+                "type": "INTIGER", 
+                "length": 3
+            },
+            "name":  {
+                "type": "STRING", 
+                "length": 3
+            },
+            "date":  {
+                "type": "STRING", 
+                "length": 3
+            },
+            "file":  {
+                "type": "BLOB", 
+                "length": 3
+            }
+        },
+        "anime_id": ["123", "1234"],
+        "name": ["HighSchool DxD", "Fullmetal"],
+        "date": ["", ""]        
+    }
+}
